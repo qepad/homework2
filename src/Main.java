@@ -15,9 +15,9 @@ public class Main {
         // task 2
 
         System.out.println("задание 2");
-        dog += 4;
-        cat += 4;
-        paper += 4;
+        dog = dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
         System.out.println("новое значение dog - " + dog);
         System.out.println("новое значение cat - " + cat);
         System.out.println("новое значение paper - " + paper);
@@ -57,10 +57,8 @@ public class Main {
         System.out.println("задание 6");
         var boxer1 = 78.2;
         var boxer2 = 82.7;
-        var boxSum = boxer1 + boxer2;
-        System.out.println(boxSum + " - общая масса двух бойцов");
-        var boxWeightDiff = boxer2 - boxer1;
-        System.out.println(boxWeightDiff + " - разница в массе двух бойцов");
+        System.out.println(boxer1 + boxer2 + " - общая масса двух бойцов");
+        System.out.println(boxer2 - boxer1 + " - разница в массе двух бойцов");
 
         // task 7
 
